@@ -1,3 +1,4 @@
+import CounterWithInterpret from "./CounterWithInterpret";
 import Counter from "./Counter";
 import Light from "./Light";
 
@@ -6,6 +7,7 @@ const XState = () => {
     <>
       <Light />
       <Counter />
+      <CounterWithInterpret />
     </>
   );
 };
